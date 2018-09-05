@@ -8,7 +8,7 @@ package edu.gatech.oad.antlab.person;
  *  @version 1.1
  */
 public class Person3 {
-   /** Holds the persons real name */  
+   /** Qigan Zhou */
 	private String name;
 	
 	/**
@@ -42,7 +42,7 @@ public class Person3 {
 	 * @return the reversed string
 	 */
 	private String calc(String input) {
-	  //Person 3 put your implementation here
-	  return null;
+		string newstring1 = new StringBuilder(input).reverse().toString();
+		return newstring1;
 	}
 }
