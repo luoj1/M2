@@ -5,8 +5,7 @@ package edu.gatech.oad.antlab.person;
  *  returns their name and a
  *  modified string 
  *  
- *  @author Yiheng Qi
- *          Person 1
+ *  @author Yiheng Qi, Person 1
  *
  *  @version 1.1
  */
