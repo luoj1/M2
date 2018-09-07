@@ -42,7 +42,7 @@ public class Person3 {
 	 * @return the reversed string
 	 */
 	private String calc(String input) {
-		string newstring1 = new StringBuilder(input).reverse().toString();
+		String newstring1 = new StringBuilder(input).reverse().toString();
 		return newstring1;
 	}
 }
