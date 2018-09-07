@@ -1,0 +1,23 @@
+defaultTasks 'jar'
+apply plugin: 'java'
+dependencies {
+	compile files('lib/resources.jar')
+    testCompileOnly(
+            'junit:junit:4.12'
+    )
+    testImplementation(
+            'org.junit.jupiter:junit-jupiter-api:5.1.0'
+    )
+    testRuntimeOnly(
+            'org.junit.jupiter:junit-jupiter-engine:5.1.0',
+            'org.junit.vintage:junit-vintage-engine:5.1.0'
+    )
+}
+jar {
+	manifest {
+		attributes("Main-Class": "edu.gatech.oad.antlab.pkg1.AntLabMain",
+        		   "Class-Path": "../../lib/resources.jar",
+                   "Implementation-Title": "GT 2340 Team Loong",
+                   "Implementation-Version": "1.0")
+	}
+}

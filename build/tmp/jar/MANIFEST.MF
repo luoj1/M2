@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: GT 2340 Team Loong
+Implementation-Version: 1.0
+Class-Path: ../../lib/resources.jar
+Main-Class: edu.gatech.oad.antlab.pkg1.AntLabMain
+
